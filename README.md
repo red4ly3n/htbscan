@@ -43,7 +43,7 @@ Renombralo si quieres que suene más a comando:
 mv htbscan.py htbscan
 ```
 
-3. **Movelo a `/usr/local/bin`**
+3. **Muevelo a `/usr/local/bin`**
 
 Esa ruta está incluida en `$PATH`, por lo que cualquier archivo ahí se puede ejecutar como comando global.
 

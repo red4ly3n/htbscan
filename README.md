@@ -32,15 +32,15 @@ sudo htbscan -n Eureka -i 10.129.101.174 -v ~/VPN/release_arena_4ly3zz.ovpn
 1. **Dale permisos de ejecución**
 
 ```bash
-chmod +x htb_tool.py
+chmod +x htbscan.py
 ```
 
 2. **Renombralo (opcional pero estético)**
 
-Renombralo si querés que suene más a comando:
+Renombralo si quieres que suene más a comando:
 
 ```bash
-mv htb_tool.py htbscan
+mv htbscan.py htbscan
 ```
 
 3. **Movelo a `/usr/local/bin`**
@@ -51,7 +51,7 @@ Esa ruta está incluida en `$PATH`, por lo que cualquier archivo ahí se puede e
 sudo mv htbscan /usr/local/bin/
 ```
 
-4. **¡Listo! Ahora podés usarlo desde cualquier parte**
+4. **¡Listo! Ahora puedes usarlo desde cualquier parte**
 
 ```bash
 htbscan -n "Knife" -i 10.10.10.242 -v ~/HTB/knife.ovpn

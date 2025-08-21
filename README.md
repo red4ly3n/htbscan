@@ -22,12 +22,10 @@ Aquí está el detalle de lo que hace el script:
 ```zsh
 sudo htbscan -n Eureka -i 10.129.101.174 -v ~/VPN/release_arena_4ly3zz.ovpn
 ```
-![[Pasted image 20250429172157.png]]
 
 
 
 
-![[Pasted image 20250429165526.png]]
 
 - Agregar el script a una carpeta del `$PATH`
 
